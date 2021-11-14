@@ -13,31 +13,35 @@ module.exports = {
         link: "/gcp/",
         text: "GCP",
         children: [
-            {
-                link: "/gcp/cloudrun",
-                text: "Cloud Run"
-            }
-        ]
+          {
+            link: "/gcp/cloudrun",
+            text: "Cloud Run",
+          },
+        ],
       },
       {
         link: "/frontend/",
         text: "フロントエンド",
         children: [
-            {
-                link: "/frontend/typescript",
-                text: "TypeScript"
-            }
-        ]
+          {
+            link: "/frontend/typescript",
+            text: "TypeScript",
+          },
+          {
+            link: "/frontend/builtin-types",
+            text: "TypeScriptの組み込み型",
+          },
+        ],
       },
       {
         link: "/go/",
         text: "Go",
         children: [
-            {
-                link: "/go/benchmark",
-                text: "ベンチマーク"
-            }
-        ]
+          {
+            link: "/go/benchmark",
+            text: "ベンチマーク",
+          },
+        ],
       },
     ],
   },
