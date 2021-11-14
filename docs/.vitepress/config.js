@@ -29,6 +29,16 @@ module.exports = {
             }
         ]
       },
+      {
+        link: "/go/",
+        text: "Go",
+        children: [
+            {
+                link: "/go/benchmark",
+                text: "ベンチマーク"
+            }
+        ]
+      },
     ],
   },
 };
