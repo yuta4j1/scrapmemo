@@ -43,6 +43,16 @@ module.exports = {
           },
         ],
       },
+      {
+        link: "/oss/",
+        text: "OSS",
+        children: [
+          {
+            link: "/oss/cli-spinner",
+            text: "ora【CLIのスピナーライブラリ】",
+          },
+        ],
+      },
     ],
   },
 };
