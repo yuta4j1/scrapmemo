@@ -31,6 +31,10 @@ module.exports = {
             link: "/frontend/builtin-types",
             text: "TypeScriptの組み込み型",
           },
+          {
+            link: "/frontend/optimistic-ui",
+            text: "楽観的UI更新",
+          },
         ],
       },
       {
@@ -50,6 +54,16 @@ module.exports = {
           {
             link: "/oss/cli-spinner",
             text: "ora【CLIのスピナーライブラリ】",
+          },
+        ],
+      },
+      {
+        link: "/web-security/",
+        text: "Webセキュリティ",
+        children: [
+          {
+            link: "/web-security/insecure-desirialization",
+            text: "Insecure Desirialization",
           },
         ],
       },
