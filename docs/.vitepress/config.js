@@ -17,6 +17,10 @@ module.exports = {
             link: "/gcp/cloudrun",
             text: "Cloud Run",
           },
+          {
+            link: "/gcp/ddos-protection",
+            text: "GCPにおけるDDos対策",
+          },
         ],
       },
       {
@@ -34,6 +38,10 @@ module.exports = {
           {
             link: "/frontend/optimistic-ui",
             text: "楽観的UI更新",
+          },
+          {
+            link: "/frontend/package-lockfile",
+            text: "package-lock.json",
           },
         ],
       },
