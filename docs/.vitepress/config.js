@@ -18,6 +18,10 @@ module.exports = {
             text: "Cloud Run",
           },
           {
+            link: "/gcp/cloud-pubsub",
+            text: "Cloud Pub/Sub",
+          },
+          {
             link: "/gcp/ddos-protection",
             text: "GCPにおけるDDos対策",
           },
@@ -42,6 +46,10 @@ module.exports = {
           {
             link: "/frontend/package-lockfile",
             text: "package-lock.json",
+          },
+          {
+            link: "/frontend/npm-workspace",
+            text: "npm workspace",
           },
         ],
       },
@@ -72,6 +80,20 @@ module.exports = {
           {
             link: "/web-security/insecure-desirialization",
             text: "Insecure Desirialization",
+          },
+        ],
+      },
+      {
+        link: "/certification/",
+        text: "認証",
+        children: [
+          {
+            link: "/certification/oauth",
+            text: "OAuth認証",
+          },
+          {
+            link: "/certification/openid-connect",
+            text: "OpenID Connect",
           },
         ],
       },
