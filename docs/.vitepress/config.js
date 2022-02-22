@@ -51,6 +51,14 @@ module.exports = {
             link: "/frontend/npm-workspace",
             text: "npm workspace",
           },
+          {
+            link: "/frontend/npm-ci",
+            text: "npm ci",
+          },
+          {
+            link: "/frontend/react-test",
+            text: "Reactのテスト戦略について考える",
+          },
         ],
       },
       {

@@ -37,3 +37,7 @@
 
 ```$ npm run build -w server-a```
 
+## 参考
+### [フロントエンドのモノレポ構成はスケーリングの夢を見るか](https://cybozu.github.io/frontend-expert/posts/considerations-for-monorepo)
+業務内での実運用例
+
