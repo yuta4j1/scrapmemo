@@ -25,6 +25,10 @@ module.exports = {
             link: "/gcp/ddos-protection",
             text: "GCPにおけるDDos対策",
           },
+          {
+            link: "/gcp/write-docker-file",
+            text: "Dockerfileのベストプラクティス知見集",
+          },
         ],
       },
       {
