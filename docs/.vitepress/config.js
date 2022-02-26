@@ -63,6 +63,10 @@ module.exports = {
             link: "/frontend/react-test",
             text: "Reactのテスト戦略について考える",
           },
+          {
+            link: "/frontend/file-upload",
+            text: "一般的なファイルアップロード実装",
+          },
         ],
       },
       {
