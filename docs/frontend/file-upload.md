@@ -97,6 +97,7 @@ https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Transfer-Encoding
 
 ### TODO
 - chunkサイズを指定する方式のmultipart実装
+- HTTP2だとどうか
 
 ## Base64 Encode
 Base64でエンコードし、文字列を送信する。  
