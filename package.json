@@ -5,7 +5,7 @@
   "author": "yuta4j1",
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "^0.19.2"
+    "vitepress": "0.19.2"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs --port 3132",
