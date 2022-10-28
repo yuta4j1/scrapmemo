@@ -70,12 +70,32 @@ module.exports = {
         ],
       },
       {
+        link: "/css/",
+        text: "CSS",
+        children: [
+          {
+            link: "/css/filter-function",
+            text: "filter-function",
+          },
+        ],
+      },
+      {
         link: "/go/",
         text: "Go",
         children: [
           {
             link: "/go/benchmark",
             text: "ベンチマーク",
+          },
+        ],
+      },
+      {
+        link: "/rust/",
+        text: "Rust",
+        children: [
+          {
+            link: "/rust/ownership",
+            text: "所有権",
           },
         ],
       },
@@ -110,6 +130,16 @@ module.exports = {
           {
             link: "/certification/openid-connect",
             text: "OpenID Connect",
+          },
+        ],
+      },
+      {
+        link: "/project-work/",
+        text: "プロジェクト関連",
+        children: [
+          {
+            link: "/project-work/estimate",
+            text: "工数見積もりについて",
           },
         ],
       },
