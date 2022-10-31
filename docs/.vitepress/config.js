@@ -70,6 +70,38 @@ module.exports = {
         ],
       },
       {
+        link: "/a11y/",
+        text: "a11y",
+        children: [
+          {
+            link: "/a11y/about-a11y",
+            text: "なぜAccessibilityを考慮すべきなのか",
+          },
+          {
+            link: "/a11y/voiceover",
+            text: "Voice Overについて",
+          },
+          {
+            link: "/a11y/html-semantics",
+            text: "HTML Semanticsを学ぶ"
+          },
+          {
+            link: "/a11y/react-accessible-heading",
+            text: "ReactコンポーネントでHeadingを正しく実装する"
+          },
+        ],
+      },
+      {
+        link: "/http/",
+        text: "HTTP",
+        children: [
+          {
+            link: "/http/cache-control",
+            text: "Cache-Control ヘッダー",
+          },
+        ],
+      },
+      {
         link: "/css/",
         text: "CSS",
         children: [
@@ -130,6 +162,16 @@ module.exports = {
           {
             link: "/certification/openid-connect",
             text: "OpenID Connect",
+          },
+        ],
+      },
+      {
+        link: "/hash-algorithm/",
+        text: "ハッシュアルゴリズム",
+        children: [
+          {
+            link: "/hash-algorithm/about-hash",
+            text: "ハッシュアルゴリズムとは",
           },
         ],
       },
