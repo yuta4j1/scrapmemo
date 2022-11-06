@@ -99,6 +99,10 @@ module.exports = {
             link: "/http/cache-control",
             text: "Cache-Control ヘッダー",
           },
+          {
+            link: "/http/http2",
+            text: "HTTP/2",
+          },
         ],
       },
       {
