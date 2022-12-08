@@ -67,6 +67,14 @@ module.exports = {
             link: "/frontend/file-upload",
             text: "一般的なファイルアップロード実装",
           },
+          {
+            link: "/frontend/accessible-modal",
+            text: "アクセシブルなモーダルの実装",
+          },
+          {
+            link: "/frontend/outline-tips",
+            text: "アウトラインのデザイン",
+          },
         ],
       },
       {
@@ -83,11 +91,15 @@ module.exports = {
           },
           {
             link: "/a11y/html-semantics",
-            text: "HTML Semanticsを学ぶ"
+            text: "HTML Semanticsを学ぶ",
+          },
+          {
+            link: "/a11y/aria-role",
+            text: "ARIA ROLE",
           },
           {
             link: "/a11y/react-accessible-heading",
-            text: "ReactコンポーネントでHeadingを正しく実装する"
+            text: "ReactコンポーネントでHeadingを正しく実装する",
           },
         ],
       },
