@@ -179,6 +179,10 @@ module.exports = {
             link: "/web-security/session-timeout",
             text: "セッションタイムアウト",
           },
+          {
+            link: "/web-security/csrf",
+            text: "CSRF(Cross Site Request Forgery)",
+          },
         ],
       },
       {
