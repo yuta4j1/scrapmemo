@@ -128,6 +128,16 @@ module.exports = {
         ],
       },
       {
+        link: "/ui-design/",
+        text: "UIデザイン",
+        children: [
+          {
+            link: "/ui-design/design-tips",
+            text: "UIデザインをするときに気をつけること",
+          },
+        ],
+      },
+      {
         link: "/go/",
         text: "Go",
         children: [
@@ -165,6 +175,10 @@ module.exports = {
             link: "/web-security/insecure-desirialization",
             text: "Insecure Desirialization",
           },
+          {
+            link: "/web-security/session-timeout",
+            text: "セッションタイムアウト",
+          },
         ],
       },
       {
@@ -184,6 +198,16 @@ module.exports = {
       {
         link: "/hash-algorithm/",
         text: "ハッシュアルゴリズム",
+        children: [
+          {
+            link: "/hash-algorithm/about-hash",
+            text: "ハッシュアルゴリズムとは",
+          },
+        ],
+      },
+      {
+        link: "/id/",
+        text: "ID生成",
         children: [
           {
             link: "/hash-algorithm/about-hash",
